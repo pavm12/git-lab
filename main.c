@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello, world!\n");
+    int a, b;
+    printf("Введите два целых числа: ");
+    scanf("%d %d", &a, &b);
+    printf("Вы ввели: %d и %d\n", a, b);
     return 0;
 }
